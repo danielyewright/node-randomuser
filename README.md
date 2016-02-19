@@ -6,15 +6,17 @@
 
 Install using the node.js package manager [npm](http://npmjs.org/):
 
-    $ npm install randomuser
+```shell
+$ npm install node-randomuser
+```
     
-Or...
+Or install via git clone:
 
-Install via git clone:
-
-    $ git clone git://github.com/KevinTCoughlin/node-randomuser.git
-    $ cd node-randomuser
-    $ npm install
+```shell
+$ git clone git://github.com/KevinTCoughlin/node-randomuser.git
+$ cd node-randomuser
+$ npm install
+```
 
 ## Requirements
 
