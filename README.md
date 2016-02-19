@@ -50,7 +50,7 @@ randomUser.getUsers({nat: 'us', results: 5}, function(data) {
 * `results` - specifies the number of results to return
 * `nat` - specifies the nationality to use
 
-Read randomuser's [API Documentation](https://randomuser.me/documentation) for more customization.
+Read randomuser's [API Documentation](https://randomuser.me/documentation) for more options.
 
 ## Testing
 
