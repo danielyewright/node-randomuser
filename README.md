@@ -2,7 +2,6 @@
 
 > A randomuser.me API Node.js Utility
 
-[![NPM](https://nodei.co/npm/node-randomuser.png?mini=true)](https://nodei.co/npm/node-randomuser/)
 [![Build Status](https://travis-ci.org/danielyewright/node-randomuser.svg?branch=master)](https://travis-ci.org/danielyewright/node-randomuser)
 
 ## Installation
