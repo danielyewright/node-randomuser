@@ -1,0 +1,37 @@
+{
+  "name": "node-randomuser",
+  "version": "1.0.0",
+  "description": "A randomuser.me API Node.js Utility",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha ./test/test.js",
+    "version": "git add -A",
+    "postversion": "git push && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyewright/node-randomuser.git"
+  },
+  "keywords": [
+    "random",
+    "generator",
+    "randomuser",
+    "json",
+    "user",
+    "data"
+  ],
+  "author": "Daniely Wright <danielywrighte@gmail.com> (http://danielyewright.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielyewright/node-randomuser/issues"
+  },
+  "homepage": "https://github.com/danielyewright/node-randomuser#readme",
+  "dependencies": {
+    "request": "2.x.x",
+    "qs": "0.6.x"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
