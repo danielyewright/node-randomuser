@@ -20,20 +20,6 @@ $ cd node-randomuser
 $ npm install
 ```
 
-## Requirements
-
-You can install `node-randomuser` and its dependencies with npm: 
-
-```shell  
-$ npm install randomuser
-```
-
-Dependencies
-
-* [Node.js](http://nodejs.org/)
-* [Request](https://github.com/mikeal/request)
-* [qs](https://github.com/visionmedia/node-querystring)
-
 ## Usage
 
 ### Require Module and Initialize Client
