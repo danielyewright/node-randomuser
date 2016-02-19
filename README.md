@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/danielyewright/node-randomuser.svg?branch=master)](https://travis-ci.org/danielyewright/node-randomuser)
-
 # node-randomuser
 
 > A randomuser.me API Node.js Utility
+
+[![Build Status](https://travis-ci.org/danielyewright/node-randomuser.svg?branch=master)](https://travis-ci.org/danielyewright/node-randomuser)
 
 ## Installation
 
