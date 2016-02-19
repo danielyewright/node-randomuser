@@ -2,6 +2,8 @@
 
 > A randomuser.me API Node.js Utility
 
+[![view on npm](http://img.shields.io/npm/v/node-randomuser.svg)](https://www.npmjs.org/package/node-randomuser)
+[![npm module downloads per month](http://img.shields.io/npm/dm/node-randomuser.svg)](https://www.npmjs.org/package/node-randomuser)
 [![Build Status](https://travis-ci.org/danielyewright/node-randomuser.svg?branch=master)](https://travis-ci.org/danielyewright/node-randomuser)
 
 ## Installation
