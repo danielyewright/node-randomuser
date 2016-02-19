@@ -1,4 +1,13 @@
 node_modules
-*.log
-*.DS_STORE
-*.DS_Store
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
