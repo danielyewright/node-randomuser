@@ -1,6 +1,6 @@
-# node-randomuser -- A (tiny) Node.js library for http://randomuser.me's REST API
+# node-randomuser
 
-[![NPM](https://nodei.co/npm/randomuser.png)](https://nodei.co/npm/randomuser/)
+[![NPM](https://nodei.co/npm/node-randomuser.png?mini=true)](https://nodei.co/npm/node-randomuser/)
 
 ## Installation
 
