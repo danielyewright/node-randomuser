@@ -3,6 +3,7 @@
 > A randomuser.me API Node.js Utility
 
 [![Build Status](https://travis-ci.org/danielyewright/node-randomuser.svg?branch=master)](https://travis-ci.org/danielyewright/node-randomuser)
+[![Dependency Status](https://david-dm.org/danielyewright/node-randomuser.svg)](https://david-dm.org/danielyewright/node-randomuser)
 
 ## Installation
 
