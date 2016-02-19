@@ -13,40 +13,38 @@ $ npm install node-randomuser
 Or install via git clone:
 
 ```shell
-$ git clone git://github.com/KevinTCoughlin/node-randomuser.git
+$ git clone https://github.com/danielyewright/node-randomuser.git
 $ cd node-randomuser
 $ npm install
 ```
 
 ## Requirements
 
-You can install randomuser and its dependencies with npm: 
-  
-    $ npm install randomuser
+You can install `node-randomuser` and its dependencies with npm: 
+
+```shell  
+$ npm install randomuser
+```
 
 Dependencies
 
-* [Node.js](http://nodejs.org/) >= v0.6
-* [Request](https://github.com/mikeal/request) v2.x.x
-* [qs](https://github.com/visionmedia/node-querystring) v0.6.x
-
-## Examples
-
-Demos of the randomuser module are located in: [./examples](https://github.com/KevinTCoughlin/node-randomuser/tree/master/examples)
+* [Node.js](http://nodejs.org/)
+* [Request](https://github.com/mikeal/request)
+* [qs](https://github.com/visionmedia/node-querystring)
 
 ## Usage
 
 ### Require Module and Initialize Client
 
 ```javascript
-var RandomUser = require('..')
-  , r = new RandomUser();
+var RandomUser = require('node-randomuser');
+var randomUser = new RandomUser();
 ```
 
 ### .getUsers(callback)
 
 ```javascript
-r.getUsers(function(data) {
+randomUser.getUsers(function(data) {
   console.log(data);
 });
 ```
@@ -54,26 +52,25 @@ r.getUsers(function(data) {
 ### .getUsers(params, callback)
 
 ```javascript
-r.getUsers({ seed: "foxie", results: 5, gender: "male" }, function(data) {
+randomUser.getUsers({nat: 'us', results: 5}, function(data) {
   console.log(data);
 });
 ```
 
-### params {Object} [Documentation](http://randomuser.me/)
+### Parameters (params)
 
-* `results` - int specifying number of results to return
-* `genders` - string - "male" or "female" specifying gender to generate
-* `seed` - string - service will return same data for given seed
+* `results` - specifies the number of results to return
+* `nat` - specifies the nationality to use
+
+[API Documentation](https://randomuser.me/documentation)
 
 ## Testing
 
-Issue the following Make command in the top directory to run the mocha.js test cases:
+To run the mocha.js test cases:
 
-    $ make test
-
-Or...
-
-    $ npm test
+```shell
+$ npm test
+```
 
 ## Contributing
 
