@@ -1,5 +1,7 @@
 # node-randomuser
 
+> A randomuser.me API Node.js Utility
+
 [![NPM](https://nodei.co/npm/node-randomuser.png?mini=true)](https://nodei.co/npm/node-randomuser/)
 
 ## Installation
