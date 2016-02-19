@@ -22,7 +22,7 @@ $ npm install
 
 ## Usage
 
-### Require Module and Initialize Client
+### Require module and initialize client
 
 ```javascript
 var RandomUser = require('node-randomuser');
